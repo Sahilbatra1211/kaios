@@ -9,7 +9,6 @@
   
   display: flex;
   flex-direction: row;
-  
   overflow: hidden;
   outline: none;
   width: 92.0833vw;    //221px
@@ -47,9 +46,10 @@
     
     span,
     label {
+      text-align: left;
       padding: 0;
       width: 56.25vw;
-      white-space: nowrap;
+      
       overflow: hidden;
       text-overflow: ellipsis;
     }
